@@ -1,0 +1,41 @@
+body{
+    background-image: url("hatter2.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 50%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center top;
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.cim{
+    color: #273333;
+    font-family: fantasy;
+    font-size: 50;
+    font-style: normal;
+    text-align: center;
+}
+.doboz{
+    color: #273333;
+    font-family: fantasy;
+    font-size: 50;
+    font-style: italic;
+    text-align: center;
+    float: left;
+    width: 35.3%;
+
+    border: 1px solid #2cc18a;
+    padding:10px;
+    box-sizing: border-box;
+    background-color: #2cc18a;
+    margin: 10px;
+    box-shadow: inset 0 0 0 0 #273333;
+    transition: ease-out 10;
+    font-size: 1000;
+}
+
+.doboz:hover{
+    box-shadow: inset 700px 0 0 0 #8a9e9e77;
+    font-size: 100;
+}
